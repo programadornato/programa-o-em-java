@@ -1,0 +1,26 @@
+// padrão para se inserir scanf em java
+import java.util.Scanner;
+
+// padrão para se realizar todas as operações em java
+//o main nesse caso é maiúsculo
+public class Main{
+
+// public static void é padrão aqui
+// o main aqui é minusculo não sei o porque mais logo logo te falo
+    public static void main(String[] args){
+        
+        // system = sistema out = saida algo que seja porjetado para fora println é a forma usada para exibir a mensagem em tela;
+        System.out.println("Digite um número: ");
+        
+        //após ter declarado no início a biblioteca necessaria para por Scanner as entradas dsas quais na linguagem C era chamadas de scanf
+        // scaneie X ao qual recebe um novo scanner com o sistema de entrada; 
+        Scanner X = new Scanner(System.in);
+        
+    
+        /* system = sistema out = saida algo que seja porjetado para fora println é a forma usada para exibir a mensagem em tela;
+        //(X.nextLine()); X é o nome referente a variável e 
+        //nextLine == Ométodo nextLine() em java está presente na classe Scanner e é usado para obter a entrada do usuário.
+        para usar este método, um objeto Scannerprecisa ser criado. Este método pode ler a entrada até o final da linha.*/
+        System.out.println(X.nextLine());
+    }
+}
