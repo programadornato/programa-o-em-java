@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main{
+	public static void main(String[] args){
+	   Scanner entrada = new Scanner(System.in);        
+        int saldo;
+        int preço;
+        
+        System.out.print("Digite o primeiro número: ");
+        saldo = entrada.nextInt();
+        
+        System.out.print("Digite o segundo número: ");
+        preço = entrada.nextInt();
+	    System.out.println("o resultado que ainda lhe sobra na carteira é: "+(saldo - preço));
+	}
+}
