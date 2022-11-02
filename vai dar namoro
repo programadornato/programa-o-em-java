@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Main{
+	public static void main(String[] args) {
+            Scanner ler = new Scanner(System.in);
+    	
+    	System.out.println("digite aqui o seu nome: ");
+    	
+    	String nome;
+    	nome = ler.nextLine();    
+        
+        System.out.println("digite o nome da mulher que voce esta interessado: ");
+        String nome_da_pretendente;
+            nome_da_pretendente = ler.nextLine();
+        
+    	System.out.println("digite aqui a sua idade: ");
+        
+        int idade1,idade2;
+            idade1 = ler.nextInt();
+        
+        System.out.println("digite a idade da pessoa que voce esta interessado: ");
+            idade2 = ler.nextInt();    
+	
+	   System.out.printf("%s possui %d anos e esta interessado em:\n %s que possui  %d anos", nome,idade1,nome_da_pretendente,idade2);
+	}
+}
